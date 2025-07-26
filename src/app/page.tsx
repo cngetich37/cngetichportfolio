@@ -167,7 +167,7 @@ export default function Home() {
               ))}
             </ul>
           </div>
-          <ThemeSwitcher className="flex sm:hidden" />
+          <ThemeSwitcher />
         </nav>
       </header>
 
