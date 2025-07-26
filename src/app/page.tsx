@@ -64,14 +64,14 @@ const contactSchema = yup.object().shape({
 
 export default function Home() {
   // For smooth scroll navigation
-  const heroRef = useRef<HTMLDivElement>(null);
-  const skillsRef = useRef<HTMLDivElement>(null);
-  const aboutRef = useRef<HTMLDivElement>(null);
-  const projectsRef = useRef<HTMLDivElement>(null);
-  const testimonialsRef = useRef<HTMLDivElement>(null);
-  const contactRef = useRef<HTMLDivElement>(null);
+  const heroRef = useRef<HTMLDivElement | null>(null);
+  const skillsRef = useRef<HTMLDivElement | null>(null);
+  const aboutRef = useRef<HTMLDivElement | null>(null);
+  const projectsRef = useRef<HTMLDivElement | null>(null);
+  const testimonialsRef = useRef<HTMLDivElement | null>(null);
+  const contactRef = useRef<HTMLDivElement | null>(null);
 
-  const sectionRefs = {
+  const sectionRefs: Record<string, React.RefObject<HTMLDivElement | null>> = {
     "#hero": heroRef,
     "#skills": skillsRef,
     "#about": aboutRef,
@@ -295,7 +295,7 @@ export default function Home() {
           <div className="relative w-full max-w-xl mx-auto">
             <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-lg p-8 border border-gray-100 dark:border-gray-800 flex flex-col items-center transition-all duration-500">
               <p className="text-lg italic text-gray-700 dark:text-gray-200 mb-4 text-center min-h-[72px]">
-                "{testimonials[testimonialIdx].quote}"
+                &quot;{testimonials[testimonialIdx].quote}&quot;
               </p>
               <span className="font-semibold text-blue-700 dark:text-blue-300">{testimonials[testimonialIdx].name}</span>
               <span className="text-gray-500 dark:text-gray-400 text-sm">{testimonials[testimonialIdx].title}</span>
