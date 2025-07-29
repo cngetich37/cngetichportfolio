@@ -318,7 +318,7 @@ export default function Home() {
           <div>
             <h4 className="font-semibold text-[var(--primary)] mb-2">Beyond Work</h4>
             <p className="text-[var(--foreground-muted)] text-sm sm:text-base">
-              I'm passionate about technology education and mentoring. I regularly contribute to the developer community through technical blogs, open-source projects, and speaking engagements. When not coding, you'll find me exploring new technologies, hiking, or sharing knowledge with aspiring developers. I believe in the power of technology to transform businesses and create positive impact in the world.
+              I&apos;m passionate about technology education and mentoring. I regularly contribute to the developer community through technical blogs, open-source projects, and speaking engagements. When not coding, you&apos;ll find me exploring new technologies, hiking, or sharing knowledge with aspiring developers. I believe in the power of technology to transform businesses and create positive impact in the world.
             </p>
           </div>
         </div>
