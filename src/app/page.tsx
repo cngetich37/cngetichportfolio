@@ -239,30 +239,86 @@ export default function Home() {
         <h3 className="text-2xl font-bold mb-6 text-[var(--primary)] self-center text-center">About Me</h3>
         <div ref={aboutSectionRef} className="w-full bg-[var(--card)] rounded-2xl shadow-lg p-6 sm:p-8 border border-[var(--border)]">
           <p className="text-base sm:text-lg text-[var(--foreground)] leading-relaxed mb-6">
-            With a strong background in ERP implementations and custom software development, I help organizations streamline operations and unlock new business value. My journey spans consulting, solution architecture, and hands-on coding—delivering scalable, maintainable, and user-friendly systems. I thrive at the intersection of business and technology, always eager to learn and innovate.
+            I am a passionate Dynamics 365 Finance & Operations Technical Consultant and Full Stack Software Engineer with over 5 years of experience in ERP implementations, custom development, and digital transformation. I specialize in helping organizations streamline their business processes through innovative technology solutions, combining deep ERP expertise with modern software engineering practices.
           </p>
           <div className="mb-6">
-            <h4 className="font-semibold text-[var(--primary)] mb-2">Professional Timeline</h4>
-            <ul className="list-disc list-inside text-[var(--foreground)] text-sm sm:text-base space-y-1">
-              <li><span className="font-medium text-[var(--foreground-secondary)]">2023–Present:</span> Senior Dynamics 365 F&O Technical Consultant, leading digital transformation projects for enterprise clients.</li>
-              <li><span className="font-medium text-[var(--foreground-secondary)]">2020–2023:</span> Full Stack Software Engineer, building scalable web applications and custom ERP integrations.</li>
-              <li><span className="font-medium text-[var(--foreground-secondary)]">2018–2020:</span> ERP Implementation Specialist, focusing on process automation and user training.</li>
+            <h4 className="font-semibold text-[var(--primary)] mb-2">Professional Journey</h4>
+            <ul className="list-disc list-inside text-[var(--foreground)] text-sm sm:text-base space-y-3">
+              <li>
+                <span className="font-medium text-[var(--foreground-secondary)]">Jun 2024–Present:</span> 
+                <strong>D365 F&O Technical Consultant</strong> at Impax Business Solutions Limited. Full-time role specializing in Microsoft Dynamics ERP, Azure SQL, Microsoft Azure, Microsoft Power BI, and Microsoft Power Apps. Working in a hybrid arrangement in Nairobi County, Kenya.
+              </li>
+              <li>
+                <span className="font-medium text-[var(--foreground-secondary)]">Jan 2024–May 2024:</span> 
+                <strong>ICT Officer - Smart Nairobi</strong> at Nairobi City County. Contract position providing technical support and software development using Microsoft Dynamics ERP and React.js. On-site work in Nairobi County, Kenya.
+              </li>
+              <li>
+                <span className="font-medium text-[var(--foreground-secondary)]">Jul 2023–Dec 2023:</span> 
+                <strong>Pre-Sales Engineer - Microsoft | Fortinet | Quantum</strong> at INTRACOM AFRICA LTD. Contract role specializing in Fortinet, Cisco Networking, Microsoft Presales, and Quantum Storage. On-site work in Nairobi County, Kenya.
+              </li>
+              <li>
+                <span className="font-medium text-[var(--foreground-secondary)]">Jan 2023–Jun 2023:</span> 
+                <strong>System Support Officer - NairobiPay</strong> at Nairobi City County. Contract position providing technical support, team leadership, and customer relationship management using REST APIs, Microsoft Dynamics ERP, Office 365, and Linux.
+              </li>
+              <li>
+                <span className="font-medium text-[var(--foreground-secondary)]">Jan 2022–Dec 2022:</span> 
+                <strong>Business Application Support - CRD(Nairobi Revenue Services)</strong> at KRA(KENYA REVENUE AUTHORITY). Contract role providing technical support and problem solving using REST APIs, Microsoft Dynamics ERP, Office 365, Linux, and Python.
+              </li>
+              <li>
+                <span className="font-medium text-[var(--foreground-secondary)]">Aug 2022–Sep 2022:</span> 
+                <strong>Cyber Security</strong> at Brainnest. Internship in Bremen, Germany focusing on Binary Exploitation, Cryptography, Reverse Engineering, Digital Forensics, and penetration testing using Python, Bash scripting, C, and Kali Linux.
+              </li>
+              <li>
+                <span className="font-medium text-[var(--foreground-secondary)]">Jan 2020–Mar 2020:</span> 
+                <strong>IT Support Staff</strong> at Ministry of Energy of Kenya. Internship providing desktop support, help desk services, and hardware maintenance using Microsoft Excel, Microsoft Word, and LAN-WAN technologies.
+              </li>
+              <li>
+                <span className="font-medium text-[var(--foreground-secondary)]">Mar 2018–Aug 2018:</span> 
+                <strong>Junior Software Engineer</strong> at FarmDrive. Internship developing software solutions using REST APIs, Git, PostgreSQL, Flask, Python, and JavaScript in Nairobi, Kenya.
+              </li>
+              <li>
+                <span className="font-medium text-[var(--foreground-secondary)]">May 2017–Aug 2017:</span> 
+                <strong>Network Operations Specialist</strong> at Jamii Telecommunications Ltd. Internship in Eldoret, Uasin Gishu County, Kenya specializing in Network Switches, Computer Networking, Telecommunications, Network Engineering, Fiber Optics, and Team Management.
+              </li>
             </ul>
           </div>
           <div className="mb-6">
-            <h4 className="font-semibold text-[var(--primary)] mb-2">Core Values</h4>
+            <h4 className="font-semibold text-[var(--primary)] mb-2">Technical Expertise</h4>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <h5 className="font-medium text-[var(--foreground-secondary)] mb-2">ERP & Business Solutions</h5>
+                <ul className="text-sm text-[var(--foreground-muted)] space-y-1">
+                  <li>• Dynamics 365 Finance & Operations</li>
+                  <li>• X++ Development & Customization</li>
+                  <li>• Power Platform Integration</li>
+                  <li>• Business Process Automation</li>
+                </ul>
+              </div>
+              <div>
+                <h5 className="font-medium text-[var(--foreground-secondary)] mb-2">Modern Web Development</h5>
+                <ul className="text-sm text-[var(--foreground-muted)] space-y-1">
+                  <li>• React & TypeScript</li>
+                  <li>• Node.js & Express</li>
+                  <li>• C# & .NET Framework</li>
+                  <li>• Azure Cloud Services</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="mb-6">
+            <h4 className="font-semibold text-[var(--primary)] mb-2">Core Values & Approach</h4>
             <ul className="flex flex-wrap gap-3">
-              <li className="bg-[var(--primary)]/10 text-[var(--foreground-secondary)] px-3 py-1 rounded-full text-xs font-semibold">Integrity</li>
+              <li className="bg-[var(--primary)]/10 text-[var(--foreground-secondary)] px-3 py-1 rounded-full text-xs font-semibold">Client-Focused Solutions</li>
               <li className="bg-[var(--primary)]/10 text-[var(--foreground-secondary)] px-3 py-1 rounded-full text-xs font-semibold">Continuous Learning</li>
-              <li className="bg-[var(--primary)]/10 text-[var(--foreground-secondary)] px-3 py-1 rounded-full text-xs font-semibold">Collaboration</li>
+              <li className="bg-[var(--primary)]/10 text-[var(--foreground-secondary)] px-3 py-1 rounded-full text-xs font-semibold">Technical Excellence</li>
               <li className="bg-[var(--primary)]/10 text-[var(--foreground-secondary)] px-3 py-1 rounded-full text-xs font-semibold">Innovation</li>
-              <li className="bg-[var(--primary)]/10 text-[var(--foreground-secondary)] px-3 py-1 rounded-full text-xs font-semibold">Empathy</li>
+              <li className="bg-[var(--primary)]/10 text-[var(--foreground-secondary)] px-3 py-1 rounded-full text-xs font-semibold">Collaboration</li>
             </ul>
           </div>
           <div>
             <h4 className="font-semibold text-[var(--primary)] mb-2">Beyond Work</h4>
             <p className="text-[var(--foreground-muted)] text-sm sm:text-base">
-              Outside of tech, I enjoy hiking, reading about emerging technologies, and mentoring aspiring developers. I believe in lifelong learning and the power of technology to make a positive impact.
+              I'm passionate about technology education and mentoring. I regularly contribute to the developer community through technical blogs, open-source projects, and speaking engagements. When not coding, you'll find me exploring new technologies, hiking, or sharing knowledge with aspiring developers. I believe in the power of technology to transform businesses and create positive impact in the world.
             </p>
           </div>
         </div>
